@@ -1,5 +1,5 @@
 ---
-title: "Welcome Hooman"
+title: "I changed things."
 output:
   html_document:
     toc: no
@@ -14,8 +14,9 @@ pacman::p_load(knitr)
 
 ###
 
-```{r, echo=FALSE, fig.cap="Hi! I am Estrella.", out.width = '30%', fig.align='center'}
-knitr::include_graphics("my_smiling_face_here.jpg")
+```{r, echo=FALSE, fig.cap="Biplabendu Das", out.width = '30%', fig.align='center'}
+# knitr::include_graphics("my_smiling_face_here.jpg")
+knitr::include_graphics("me_doing_stuff.jpg")
 ```
    
 <h6 style="text-align: center;" markdown="1">

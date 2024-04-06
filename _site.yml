@@ -11,7 +11,7 @@ output:
     toc_depth: 3
     toc_float: yes
 navbar:
-  title: Estrella da Boss
+  title: Biplabendu Das
   left:
   - text: Home
     href: index.html
