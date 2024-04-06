@@ -260,7 +260,7 @@ h3 {
 
 ### Allow users to leave comments/annotations
 
-```{r echo=TRUE, eval=TRUE}
+```{r echo=TRUE, eval=TRUE, message=FALSE}
 ## Hypothesis annotations
 # Latest development version
 remotes::install_github("r-world-devs/hypothesis")
