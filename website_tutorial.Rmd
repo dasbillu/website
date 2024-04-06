@@ -8,7 +8,7 @@ date: '`r format(Sys.time(), "%d %B, %Y")`'
 ```{r setup, include=FALSE}
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(knitr)
-
+ 
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(warning = F)
 knitr::opts_chunk$set(message = F)
@@ -227,7 +227,7 @@ ___
 
 > Option 1: write HTML code
 
-`<h3 style="font-size:30px; color:red;"> 
+<h3 style="font-size:30px; color:green;"> 
 I am a colored header text (h3).
 </h3>
 
@@ -260,7 +260,7 @@ h3 {
 
 ### Allow users to leave comments/annotations
 
-```{r echo=TRUE, eval=FALSE}
+```{r echo=TRUE, eval=TRUE}
 ## Hypothesis annotations
 # Latest development version
 remotes::install_github("r-world-devs/hypothesis")

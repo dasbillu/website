@@ -10,7 +10,12 @@ h1 {
   color: maroon;
 }
 
-h2, h3 {
+h2 {
   font-size: 20pt;
   color: purple ;
+}
+
+h3 {
+  font-size: 12pt;
+  color: olive ;
 }

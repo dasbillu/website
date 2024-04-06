@@ -36,6 +36,12 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/hypothesis-1.1155.0/script.js"></script>
+<script src="site_libs/hypothesis-1.1155.0/libs/hypothesis/hi_embed.js" class="hi_embed" async></script>
+<script type="application/json" class="js-hypothesis-config">{"openSidebar":true,"showHighlights":"whenSidebarOpen","theme":"classic","enableShareLinks":false}</script>
+<script id="hi_source">window.hypothesisConfig = function () {
+ return {"onLayoutChange":tryHideHypothesis};
+};</script>
 <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -64,6 +70,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="assets/style.css" type="text/css" />
 
 
 
@@ -337,13 +344,6 @@ div.tocify {
 </li>
 <li>
   <a href="website_tutorial.html">Website Tutorial</a>
-</li>
-<li>
-  <a href="./resume/resume_john_doe.pdf">
-    <span class="fa fa-id-card"></span>
-     
-    Resume
-  </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -672,8 +672,7 @@ class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#table-of-con
 <blockquote>
 <p>Option 1: write HTML code</p>
 </blockquote>
-`
-<h3 style="font-size:30px; color:red;">
+<h3 style="font-size:30px; color:green;">
 I am a colored header text (h3).
 </h3>
 <p style="
@@ -704,8 +703,26 @@ class="section level3">
 <h3>Allow users to leave comments/annotations</h3>
 <pre class="r"><code>## Hypothesis annotations
 # Latest development version
-remotes::install_github(&quot;r-world-devs/hypothesis&quot;)
-hypothesis::useHypothesis()</code></pre>
+remotes::install_github(&quot;r-world-devs/hypothesis&quot;)</code></pre>
+<pre><code>## sys         (NA   -&gt; 3.4.2) [CRAN]
+## askpass     (NA   -&gt; 1.2.0) [CRAN]
+## knitr       (1.45 -&gt; 1.46 ) [CRAN]
+## openssl     (NA   -&gt; 2.1.1) [CRAN]
+## curl        (NA   -&gt; 5.2.1) [CRAN]
+## httr        (NA   -&gt; 1.4.7) [CRAN]
+## purrr       (NA   -&gt; 1.0.2) [CRAN]
+## htmlwidgets (NA   -&gt; 1.6.4) [CRAN]
+## 
+## The downloaded binary packages are in
+##  /var/folders/dr/2m_7jrns2wg6g3ykb1r7f5p00000gn/T//RtmpdeNL90/downloaded_packages
+## * checking for file ‘/private/var/folders/dr/2m_7jrns2wg6g3ykb1r7f5p00000gn/T/RtmpdeNL90/remotes76ec2f4f4a0c/r-world-devs-hypothesis-faa7e35/DESCRIPTION’ ... OK
+## * preparing ‘hypothesis’:
+## * checking DESCRIPTION meta-information ... OK
+## * checking for LF line-endings in source and make files and shell scripts
+## * checking for empty or unneeded directories
+## Omitted ‘LazyData’ from DESCRIPTION
+## * building ‘hypothesis_1.1.0.tar.gz’</code></pre>
+<pre class="r"><code>hypothesis::useHypothesis()</code></pre>
 </div>
 </div>
 
